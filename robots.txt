@@ -1,0 +1,9 @@
+# search engines may read the page only to see its noindex tag; every other crawler is asked to stay out
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Disallow: /
